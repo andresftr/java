@@ -1,0 +1,176 @@
+h1{
+	color: peru;
+}
+
+.banner img{
+	width: 600px;
+	height: 500px;
+	left: 0;
+
+}
+.banner img:hover{
+    margin-left: 70%;
+	transition-property: margin-left;
+	transition-duration: 3s;
+	transition-delay: 1s;
+	transition-timing-function: easi;
+    
+}
+
+
+
+.centrar{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header nav ul{
+	list-style: none;/*borrar los puntos negros */
+	margin-top: 0px;	
+}
+
+.menu{
+	float:right;
+}
+
+@keyframes example {
+    from {background-color: #eee; background-color: #ff66b3;}
+    to {background-color: #23d134;}
+}
+
+.menu li{
+	float: left;
+	margin-right: 10px;
+	border-style: solid;
+	font-size: 24px;
+	border-width: 1px;
+	padding: 10px;
+	border-color: #eee;
+	border-radius: 8px;
+	animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-direction: reverse;
+
+}
+
+.menu li a{
+	display: block;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.menu li a:hover{
+	background-color: #96B5F6;
+	border-radius: 8px;
+	height: 20px;
+
+}
+.encab{
+	margin-top:40px;
+	margin-right: 0px;
+
+}
+.encab img{
+	float: left;
+	border-radius: 5px;
+}
+
+#logo{
+	box-shadow: 1px 2px #eee;
+}
+
+main{
+	width: 70%;
+	float: left;
+}
+
+.lado{
+	float: left;
+	width: 20%;
+	margin-left:75px;
+	margin-bottom: 20px;
+}
+
+@keyframes animacion2 {
+ from{background-color:#d1225f;}
+ to{background-color: #f78c2e;}
+}
+
+.lado h3{
+	padding: 5px;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 3px;
+	text-align: center;
+	background-color: #ccc;
+	margin-left: 40px;
+	animation-name: animacion2;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-direction: reverse;
+}
+
+.lado ul{
+	list-style: none;
+}
+
+.lado li{
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	text-align: center;
+	border-color: #eee;
+}
+
+.lado li a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.pie{
+	width: 100%;
+	clear: left;
+	background-color: #232F3E;
+	height: 90px;
+	color: white;
+}
+
+.pie address{
+	float: left;
+	margin: 15px;
+	width: 200px;
+	text-align: center;
+}
+
+.pie ul{
+	list-style: none;
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.pie li{
+	float: left;
+}
+
+.pie li a{
+	display: inline;
+	color: white;
+	margin-left: 5px;
+}
+
+#error{
+	color: red;
+	font-weight: bold;
+}
+
+
